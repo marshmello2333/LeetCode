@@ -24,7 +24,7 @@ inoeder(root->right,nums);
 
     vector<int> inorderTraversal(TreeNode* root) {
 
-
+//不用进一步判断是否为空，cause inorder已经判断过了
  vector<int>nums;
  inoeder(root,nums);
  return nums;
